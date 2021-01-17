@@ -16,6 +16,19 @@
   justify-content: center;
   align-items: center;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    background-color: #2196f3;
+  }
+  &:hover .social-icon {
+    fill: #ffffff;
+  }
+  &:focus {
+    background-color: #2196f3;
+  }
+  &:focus .social-icon {
+    fill: #ffffff;
+  }
 }
 .link-list:not(:last-child) {
   margin-right: 10px;
@@ -26,16 +39,4 @@
   width: 20px;
   height: 20px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link:hover {
-  background-color: #2196f3;
-}
-.link:hover .social-icon {
-  fill: #ffffff;
-}
-.link:focus {
-  background-color: #2196f3;
-}
-.link:focus .social-icon {
-  fill: #ffffff;
 }

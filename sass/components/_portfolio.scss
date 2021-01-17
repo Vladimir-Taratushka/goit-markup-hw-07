@@ -31,7 +31,7 @@
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.06em;
-  background-color: #ffffff;
+  background-color: $backgroundColor;
   border: 1px solid #eeeeee;
   margin-bottom: 20px;
   margin-right: 30px;
@@ -43,11 +43,12 @@
   padding-bottom: 20px;
   height: 404px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.portfolio-links:hover,
-.portfolio-links:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 .card {
   width: 370px;
@@ -59,18 +60,16 @@
   margin-left: 24px;
   font-size: 18px;
   font-weight: bold;
-  color: #212121;
+  color: $headerColor;
 }
 .card-content {
   margin-left: 24px;
   margin-top: 20px;
   font-size: 16px;
   font-weight: 400;
-  color: #757575;
+  color: $textColor;
 }
 .card-text {
   width: 100%;
   padding-top: 20px;
 }
-
-/*Всплывающие окна*/

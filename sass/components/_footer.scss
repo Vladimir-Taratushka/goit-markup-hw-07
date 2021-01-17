@@ -1,5 +1,5 @@
 footer {
-  background-color: #2f303a;
+  background-color: $footColor;
 }
 .footer-links {
   display: flex;
@@ -13,7 +13,7 @@ footer {
 }
 .links-title {
   display: block;
-  color: #ffffff;
+  color: $backgroundColor;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -25,12 +25,12 @@ footer {
   margin-bottom: 20px;
 }
 .foot-contacts a {
-  color: rgba(255, 255, 255, 0.6);
+  color: $footContactColor;
   font-size: 14px;
   font-style: normal;
 }
 .foot-contacts > li {
-  color: #ffffff;
+  color: $backgroundColor;
   font-style: normal;
   font-size: 14px;
 }

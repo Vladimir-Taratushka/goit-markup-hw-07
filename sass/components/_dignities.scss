@@ -2,7 +2,7 @@
   display: flex;
   width: 270px;
   height: 120px;
-  background-color: #f5f4fa;
+  background-color: $buttonColor;
   border-radius: 4px;
   margin-bottom: 30px;
   justify-content: center;
@@ -41,7 +41,7 @@
 .dignities p {
   text-align: left;
   width: 270px;
-  color: #757575;
+  color: $textColor;
   line-height: 1.7;
   font-size: 14;
   margin-bottom: 0px;

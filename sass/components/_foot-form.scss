@@ -9,8 +9,8 @@
   display: flex;
   width: 200px;
   height: 50px;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: $backgroundColor;
+  background-color: $accentColor;
   border-radius: 4px;
   font-family: Roboto;
   font-size: 16px;
@@ -29,7 +29,7 @@
   left: 138px;
   width: 24px;
   height: 24px;
-  fill: #ffffff;
+  fill: $backgroundColor;
   margin-left: 10px;
 }
 .formspace {
@@ -37,11 +37,11 @@
   height: 50px;
   left: 815px;
   top: 2785px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid $footFormColor;
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background: #2f303a;
+  background: $footColor;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -50,5 +50,5 @@
   letter-spacing: 0.03em;
   text-align: left;
   padding: 15px 16px;
-  color: #ffffff;
+  color: $backgroundColor;
 }

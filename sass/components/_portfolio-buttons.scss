@@ -21,19 +21,19 @@
   border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
-  background-color: #f5f4fa;
-  border: #ffffff;
+  background-color: $buttonColor;
+  border: $backgroundColor;
   padding: 10px 22px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-/*эффект Ховер на кнопки*/
-.button:hover {
-  background-color: #2196f3;
-  color: #ffffff;
-  border-radius: 4px;
-}
-.button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
-  border-radius: 4px;
+
+  &:hover {
+    background-color: $accentColor;
+    color: $backgroundColor;
+    border-radius: 4px;
+  }
+  &:focus {
+    background-color: $accentColor;
+    color: $backgroundColor;
+    border-radius: 4px;
+  }
 }
