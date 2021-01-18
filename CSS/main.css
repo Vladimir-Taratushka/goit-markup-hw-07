@@ -1,3 +1,31 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../../fonts/Roboto.html);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../../fonts/RobotoMedium.html);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../../fonts/Roboto.html);
+  font-style: bold;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../../fonts/RobotoBlack.html);
+  font-style: normal;
+  font-weight: 900;
+}
+
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -400,11 +428,6 @@ header {
   margin-right: 10px;
   align-items: center;
   fill: currentColor;
-}
-
-main {
-  margin: auto;
-  font-family: "Roboto", sans-serif;
 }
 
 .efective-solution {
@@ -1126,7 +1149,7 @@ footer {
   margin-block-start: 0px;
   margin-block-end: 0px;
   padding-top: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   line-height: 1.7;
   font-size: 14px;
 }
@@ -1151,7 +1174,7 @@ footer {
   color: #ffffff;
   background-color: #2196f3;
   border-radius: 4px;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -1183,7 +1206,7 @@ footer {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background: #2f303a;
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;

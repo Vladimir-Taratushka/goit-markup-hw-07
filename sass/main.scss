@@ -1,10 +1,11 @@
-@import "./util/variables";
+@import "./utils/variables";
+@import "./utils/fonts";
+@import "./base/mainblock";
 @import "./base/normalize";
 @import "./components/body";
 @import "./components/page-header";
 @import "./components/navigation";
 @import "./components/nav-contacts";
-@import "./components/mainblock";
 @import "./components/hero";
 @import "./components/hero-button";
 @import "./components/modal";
